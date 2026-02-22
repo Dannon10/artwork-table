@@ -1,0 +1,118 @@
+.chevron-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #6b7280;
+    padding: 0;
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.p-column-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chevron-btn:hover {
+    color: #374151;
+}
+
+.overlay-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-panel {
+    width: 280px;
+    padding: 10px;
+}
+
+.overlay-p {
+    padding: 4px 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.overlay-label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #374151;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.overlay-panel p {
+    font-size: 12px;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.overlay-select {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.overlay-input {
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 7px 8px;
+    font-size: 12px;
+    outline: none;
+    color: #374151;
+    font-family: inherit;
+    width: 170px;
+    min-width: 0;
+    flex-shrink: 1;
+    transition: border-color 0.15s;
+}
+
+.overlay-input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.overlay-input::-webkit-outer-spin-button,
+.overlay-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.overlay-input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.overlay-submit-btn {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: background 0.15s;
+}
+
+.overlay-submit-btn:hover {
+    background: #2563eb;
+}
+
+.overlay-submit-btn:active {
+    background: #1d4ed8;
+}
+
+.selection-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
